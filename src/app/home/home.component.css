@@ -1,0 +1,23 @@
+.wrapper{
+  margin:0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.one{
+  flex:1;  
+}
+.two{
+  flex:7;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.three{
+  flex:2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
